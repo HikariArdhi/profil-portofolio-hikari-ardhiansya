@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Baca dokumentasi proyek Hikari Ardhiansya langsung di website.">
+  <title>Baca Dokumen | Hikari Ardhiansya</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="theme.css">
+  <link rel="stylesheet" href="reader.css?v=fit-page-2">
+  <script src="reader.js?v=hidden-case-studies-1" defer></script>
+</head>
+<body class="reader-body">
+  <header class="reader-header">
+    <a id="reader-back" href="index.html#proyek" class="reader-back">← Kembali ke portofolio</a>
+    <span class="reader-brand">Hikari Ardhiansya</span>
+  </header>
+  <main class="reader-main">
+    <div class="reader-heading">
+      <div><p class="eyebrow" id="reader-project">DOKUMENTASI PROYEK</p><h1 id="reader-title">Memuat dokumen…</h1><p id="reader-meta" class="reader-meta"></p></div>
+      <a id="reader-download" class="button button-dark" hidden download>Unduh PDF <span aria-hidden="true">↓</span></a>
+    </div>
+    <div class="reader-error" id="reader-error" role="alert" hidden><p id="reader-error-text"></p><button type="button" id="reader-retry">Muat ulang</button></div>
+    <section id="reader-content" aria-label="Pembaca dokumen" hidden>
+      <div class="reader-toolbar" id="reader-toolbar">
+        <label class="reader-document-label">Dokumen<select id="reader-document" aria-label="Pilih dokumen"></select></label>
+        <div class="reader-page-controls"><button type="button" id="reader-prev" aria-label="Halaman sebelumnya">←</button><label><span class="sr-only">Pilih halaman</span><select id="reader-page" aria-label="Pilih halaman"></select></label><span id="reader-page-total"></span><button type="button" id="reader-next" aria-label="Halaman berikutnya">→</button></div>
+        <label class="reader-fit-label">Tampilan<select id="reader-fit" aria-label="Tampilan halaman"><option value="page">Halaman utuh</option><option value="width">Lebar layar</option></select></label>
+        <div class="reader-zoom-controls"><button type="button" id="reader-zoom-out" aria-label="Perkecil halaman">−</button><button type="button" id="reader-zoom-reset" aria-label="Atur ulang zoom">100%</button><button type="button" id="reader-zoom-in" aria-label="Perbesar halaman">+</button></div>
+      </div>
+      <p class="reader-hint" id="reader-hint">Seluruh halaman ditampilkan utuh. Pilih Lebar layar atau tombol + untuk memperbesar.</p>
+      <p id="reader-status" class="reader-status" aria-live="polite"></p>
+      <div id="reader-stage" class="reader-stage" tabindex="0" role="region" aria-label="Halaman dokumen, dapat digeser" aria-busy="true"><img id="reader-page-image" alt="" decoding="async"></div>
+      <details class="reader-text"><summary>Baca teks halaman ini</summary><div id="reader-page-text"></div></details>
+    </section>
+    <noscript><p>Aktifkan JavaScript untuk membaca dokumen di halaman ini. <a href="index.html#proyek">Kembali ke daftar proyek.</a></p></noscript>
+  </main>
+</body>
+</html>

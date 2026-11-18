@@ -1,0 +1,74 @@
+/* Follow the browser/device preference, including changes while the page is open. */
+:root { color-scheme: light; }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --paper: #131e19;
+    --ink: #e9ede3;
+    --muted: #a9b8ae;
+    --line: #33443a;
+    --orange: #f29b78;
+    --lime: #d5e7a2;
+    --white: #1d2c23;
+  }
+
+  ::selection { background: var(--lime); color: #17271c; }
+  .site-header { background: rgba(19,30,25,.96); }
+  .monogram { background: var(--lime); color: #13241a; }
+  .monogram span { color: #13241a; }
+  .button-dark:hover { background: #d4e5b8; }
+  .filter:hover { background: #2d4133; }
+  .filter.active:hover { background: #d4e5b8; color: #13241a; }
+  .search-box { border-color: #64735f; }
+  .search-box input::placeholder { color: #98aa9c; }
+  .project-tags span { border-color: var(--line); color: #bdcbbb; }
+  .project-number { color: #ced8c9; }
+  .featured-label { background: #101a14b8; color: #dbe6d1; }
+
+  .project-visual.tone-sage { background: #2c3d30; }
+  .project-visual.tone-peach { background: #49382c; }
+  .project-visual.tone-lime { background: #35432a; }
+  .project-visual.tone-blue { background: #2c3f3f; }
+  .project-visual.tone-sand { background: #443e2d; }
+  .project-visual.tone-mauve { background: #3e3440; }
+  .project-visual.tone-grey { background: #343c32; }
+  .project-visual.tone-green { background: #263c2c; }
+  .project-visual svg [fill="#fffefa"] { fill: #c7d0c0; }
+  .project-visual svg text[fill="#64765a"],
+  .project-visual svg text[fill="#8b6a54"],
+  .project-visual svg text[fill="#65764e"] { fill: #b4c4b8; }
+  .project-visual svg text[fill="#5f7048"] { fill: #233b33; }
+
+  .hero-portrait:before { background: #34442d; border-color: #47583a; }
+  .portrait-frame { outline-color: #54644e; box-shadow: 0 18px 40px #0003; }
+  .portrait-caption { border-color: var(--line); }
+  .portrait-caption-mark { color: #203b32; }
+  .study-icon { background: #2c432e; }
+
+  .document-section { background: #223125; border-color: #3a4933; }
+  .document-icon { color: #adbd9a; }
+  .document-copy>p:not(.eyebrow) { color: var(--muted); }
+  .document-types span { border-color: #4c5d45; }
+  .doc-status { color: #b9c7ad; }
+  .timeline { border-color: var(--line); }
+  .current-tag { color: #1d3324; }
+
+  .skill-panel { background: #203a2c; color: #edf0e8; border-color: var(--line); }
+  .skill-tags span { border-color: #55755a; }
+  .study-panel { background: #2a3024; border-color: #434c36; }
+  .study-panel p { color: #c5cebd; }
+  .study-panel .study-provider { color: #e0e5d5; }
+  .study-period { color: #b8c5ac; border-color: var(--line); }
+  .bootcamp-state { color: #bdc7b6; }
+  .bootcamp-status { color: #203321; border-color: #68784b; }
+  .record-list li { border-color: var(--line); }
+
+  .contact-section { background: #0b1510; color: #f7f5ef; }
+  dialog::backdrop { background: #000a; }
+  .close-dialog:hover { color: #203322; }
+  .dialog-tags span { border-color: var(--line); }
+  .tab-count { background: #33442e; color: #d4dfc9; }
+  .story-step p { color: #b9c8ba; }
+  .document-row button { background: #28382b; border-color: var(--line); color: #b7c3af; }
+}

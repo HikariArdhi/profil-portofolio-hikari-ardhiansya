@@ -1,0 +1,68 @@
+.reader-body { min-height: 100vh; }
+.reader-header { display: flex; justify-content: space-between; align-items: center; gap: 24px; padding: 14px max(24px, calc((100vw - 1280px) / 2)); border-bottom: 1px solid var(--line); }
+.reader-back { font-size: 13px; font-weight: 500; }
+.reader-back:hover { text-decoration: underline; text-underline-offset: 4px; }
+.reader-brand { font: italic 20px var(--serif); }
+.reader-main { max-width: 1328px; padding: 18px 24px 28px; margin: 0 auto; }
+.reader-heading { display: flex; align-items: center; justify-content: space-between; gap: 24px; margin-bottom: 16px; }
+.reader-heading .eyebrow { margin-bottom: 5px; }
+.reader-heading h1 { margin: 0; font: normal clamp(26px, 3vw, 36px)/1.15 var(--serif); letter-spacing: -.8px; }
+.reader-meta { font-size: 11px; color: var(--muted); margin: 6px 0 0; }
+.reader-heading .button { flex-shrink: 0; font-size: 12px; padding: 11px 18px; }
+.reader-toolbar { display: grid; grid-template-columns: minmax(170px, 1fr) auto auto auto; grid-template-areas: "document pages fit zoom"; align-items: end; gap: 16px; padding: 12px; border: 1px solid var(--line); border-radius: 10px; background: var(--white); }
+.reader-toolbar button, .reader-toolbar select { font: 13px var(--sans); min-height: 40px; border: 1px solid var(--line); border-radius: 5px; background: var(--paper); color: var(--ink); }
+.reader-toolbar button { min-width: 40px; padding: 8px 12px; }
+.reader-toolbar button:hover:not(:disabled) { border-color: var(--ink); }
+.reader-toolbar button:disabled { opacity: .35; }
+.reader-toolbar select { padding: 8px 12px; }
+.reader-document-label, .reader-fit-label { display: grid; gap: 5px; font-size: 10px; color: var(--muted); min-width: 0; }
+.reader-document-label { grid-area: document; }
+.reader-fit-label { grid-area: fit; }
+.reader-fit-label select { min-width: 146px; }
+.reader-document-label select { width: 230px; max-width: 100%; }
+.reader-page-controls, .reader-zoom-controls { display: flex; align-items: center; gap: 7px; }
+.reader-page-controls { grid-area: pages; }
+.reader-zoom-controls { grid-area: zoom; }
+#reader-page-total { font-size: 12px; white-space: nowrap; color: var(--muted); padding: 0 4px; }
+#reader-zoom-reset { min-width: 62px; }
+.reader-hint { font-size: 11px; color: var(--muted); margin: 10px 0 4px; }
+.reader-status { font-size: 11px; margin: 0 0 8px; min-height: 18px; color: var(--muted); }
+.reader-stage { overflow: auto; height: var(--reader-stage-height, 50dvh); padding: 8px; border: 1px solid var(--line); border-radius: 10px; background: #dee2db; }
+#reader-page-image { display: block; width: auto; height: auto; max-width: none; margin-inline: auto; background: white; box-shadow: 0 3px 18px #00000012; }
+.reader-text { margin-top: 20px; padding: 18px 0; border-top: 1px solid var(--line); color: var(--muted); }
+.reader-text summary { cursor: pointer; color: var(--ink); font-size: 13px; font-weight: 500; }
+#reader-page-text { white-space: pre-wrap; font-size: 15px; line-height: 1.8; margin-top: 18px; overflow-wrap: anywhere; }
+.reader-error { margin-bottom: 22px; padding: 16px 20px; border: 1px solid var(--orange); border-radius: 8px; }
+.reader-error p { margin: 0 0 10px; }
+.reader-error button { background: transparent; border: 1px solid var(--ink); border-radius: 4px; padding: 8px 12px; }
+@media (prefers-color-scheme: dark) { .reader-stage { background: #202823; } }
+@media (min-width: 621px) and (max-width: 850px) {
+  .reader-toolbar { grid-template-columns: 1fr 1fr; grid-template-areas: "document fit" "pages zoom"; }
+  .reader-document-label select, .reader-fit-label select { width: 100%; }
+  .reader-zoom-controls { justify-content: flex-end; }
+}
+@media (max-width: 620px) {
+  .reader-header { padding: 12px 16px; gap: 12px; }
+  .reader-brand { font-size: 15px; }
+  .reader-back { font-size: 11px; }
+  .reader-main { padding: 16px 12px 28px; }
+  .reader-heading { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 12px; margin-bottom: 14px; }
+  .reader-heading .eyebrow { font-size: 8px; }
+  .reader-heading h1 { font-size: 26px; overflow-wrap: anywhere; }
+  .reader-meta { font-size: 10px; }
+  .reader-heading .button { font-size: 10px; padding: 9px 11px; gap: 12px; }
+  .reader-toolbar { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); grid-template-areas: "document fit" "pages zoom"; padding: 10px; gap: 8px; }
+  .reader-document-label, .reader-fit-label { width: 100%; }
+  .reader-document-label select { width: 100%; }
+  .reader-fit-label { display: grid; gap: 5px; }
+  .reader-fit-label select { width: 100%; min-width: 0; }
+  .reader-document-label select, .reader-fit-label select { font-size: 11px; padding-inline: 8px; }
+  .reader-toolbar button, .reader-toolbar select { min-height: 42px; }
+  .reader-toolbar button { min-width: 32px; padding: 8px; }
+  .reader-page-controls, .reader-zoom-controls { gap: 4px; }
+  .reader-zoom-controls { justify-content: flex-end; }
+  .reader-page-controls select { padding-inline: 8px; }
+  #reader-page-total { font-size: 11px; padding: 0 2px; }
+  #reader-zoom-reset { min-width: 54px; }
+  .reader-stage { padding: 5px; border-radius: 5px; }
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="507.27559055118115" height="385" preserveAspectRatio="xMinYMin meet" viewBox="0 0 507 385" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="507.27559055118115" height="385"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-385)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="10" y="369" style="font-family: Body-Bold; font-size: 9px;fill: rgb(71%,31%,19%); stroke:none;" transform="translate(0,738) scale(1,-1)">REKOMENDASI MATERI</text>
+			<text x="265.6377952755906" y="369" style="font-family: Body-Bold; font-size: 9px;fill: rgb(71%,31%,19%); stroke:none;" transform="translate(0,738) scale(1,-1)">METADATA KURIKULUM PDF</text>
+			<rect x="10" y="309" width="231.63779527559058" height="42" rx="6" ry="6" style="stroke: rgb(13%,23%,20%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(92%,94%,89%); fill-rule: evenodd;"/>
+			<text x="76.71850701279529" y="335.0" style="font-family: Body; font-size: 8.8px;fill: rgb(13%,23%,20%); stroke:none;" transform="translate(0,670) scale(1,-1)">Katalog materi belajar</text>
+			<text x="68.76069451279528" y="323.0" style="font-family: Body; font-size: 8.8px;fill: rgb(13%,23%,20%); stroke:none;" transform="translate(0,646) scale(1,-1)">Atribut materi dan profesi</text>
+			<path d="M 125.818898,309 L 125.818898,292 Z" style="stroke: rgb(38%,43%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="122.8189 293, 128.8189 293, 125.8189 287" style="stroke: rgb(38%,43%,41%); stroke-linecap: butt; stroke-width: 1; fill: rgb(38%,43%,41%); fill-rule: evenodd;"/>
+			<rect x="10" y="245" width="231.63779527559058" height="42" rx="6" ry="6" style="stroke: rgb(13%,23%,20%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(92%,94%,89%); fill-rule: evenodd;"/>
+			<text x="85.76557732529528" y="271.0" style="font-family: Body; font-size: 8.8px;fill: rgb(13%,23%,20%); stroke:none;" transform="translate(0,542) scale(1,-1)">Pembersihan data</text>
+			<text x="54.57241326279528" y="259.0" style="font-family: Body; font-size: 8.8px;fill: rgb(13%,23%,20%); stroke:none;" transform="translate(0,518) scale(1,-1)">Gabungkan atribut menjadi teks</text>
+			<path d="M 125.818898,245 L 125.818898,228 Z" style="stroke: rgb(38%,43%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="122.8189 229, 128.8189 229, 125.8189 223" style="stroke: rgb(38%,43%,41%); stroke-linecap: butt; stroke-width: 1; fill: rgb(38%,43%,41%); fill-rule: evenodd;"/>
+			<rect x="10" y="181" width="231.63779527559058" height="42" rx="6" ry="6" style="stroke: rgb(13%,23%,20%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(92%,94%,89%); fill-rule: evenodd;"/>
+			<text x="64.89780388779528" y="207.0" style="font-family: Body; font-size: 8.8px;fill: rgb(13%,23%,20%); stroke:none;" transform="translate(0,414) scale(1,-1)">TF-IDF dan cosine similarity</text>
+			<text x="75.84838982529529" y="195.0" style="font-family: Body; font-size: 8.8px;fill: rgb(13%,23%,20%); stroke:none;" transform="translate(0,390) scale(1,-1)">Kemiripan antarmateri</text>
+			<path d="M 125.818898,181 L 125.818898,164 Z" style="stroke: rgb(38%,43%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="122.8189 165, 128.8189 165, 125.8189 159" style="stroke: rgb(38%,43%,41%); stroke-linecap: butt; stroke-width: 1; fill: rgb(38%,43%,41%); fill-rule: evenodd;"/>
+			<rect x="10" y="117" width="231.63779527559058" height="42" rx="6" ry="6" style="stroke: rgb(13%,23%,20%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(13%,23%,20%); fill-rule: evenodd;"/>
+			<text x="60.88022576279529" y="143.0" style="font-family: Body; font-size: 8.8px;fill: rgb(100%,100%,100%); stroke:none;" transform="translate(0,286) scale(1,-1)">Hasil CSV dan prototipe Flask</text>
+			<text x="60.433350762795286" y="131.0" style="font-family: Body; font-size: 8.8px;fill: rgb(100%,100%,100%); stroke:none;" transform="translate(0,262) scale(1,-1)">Kandidat materi rekomendasi</text>
+			<rect x="265.6377952755906" y="309" width="231.63779527559058" height="42" rx="6" ry="6" style="stroke: rgb(13%,23%,20%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(92%,94%,89%); fill-rule: evenodd;"/>
+			<text x="326.88638041338584" y="335.0" style="font-family: Body; font-size: 8.8px;fill: rgb(13%,23%,20%); stroke:none;" transform="translate(0,670) scale(1,-1)">Dokumen kurikulum PDF</text>
+			<text x="341.65044291338586" y="323.0" style="font-family: Body; font-size: 8.8px;fill: rgb(13%,23%,20%); stroke:none;" transform="translate(0,646) scale(1,-1)">Halaman pertama</text>
+			<path d="M 381.456693,309 L 381.456693,292 Z" style="stroke: rgb(38%,43%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="378.4567 293, 384.4567 293, 381.4567 287" style="stroke: rgb(38%,43%,41%); stroke-linecap: butt; stroke-width: 1; fill: rgb(38%,43%,41%); fill-rule: evenodd;"/>
+			<rect x="265.6377952755906" y="245" width="231.63779527559058" height="42" rx="6" ry="6" style="stroke: rgb(13%,23%,20%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(92%,94%,89%); fill-rule: evenodd;"/>
+			<text x="364.82778666338584" y="271.0" style="font-family: Body; font-size: 8.8px;fill: rgb(13%,23%,20%); stroke:none;" transform="translate(0,542) scale(1,-1)">PyPDF2</text>
+			<text x="340.9006382258858" y="259.0" style="font-family: Body; font-size: 8.8px;fill: rgb(13%,23%,20%); stroke:none;" transform="translate(0,518) scale(1,-1)">Ekstraksi teks PDF</text>
+			<path d="M 381.456693,245 L 381.456693,228 Z" style="stroke: rgb(38%,43%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="378.4567 229, 384.4567 229, 381.4567 223" style="stroke: rgb(38%,43%,41%); stroke-linecap: butt; stroke-width: 1; fill: rgb(38%,43%,41%); fill-rule: evenodd;"/>
+			<rect x="265.6377952755906" y="181" width="231.63779527559058" height="42" rx="6" ry="6" style="stroke: rgb(13%,23%,20%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(92%,94%,89%); fill-rule: evenodd;"/>
+			<text x="309.0178257258858" y="207.0" style="font-family: Body; font-size: 8.8px;fill: rgb(13%,23%,20%); stroke:none;" transform="translate(0,414) scale(1,-1)">Pemilihan dan pembersihan field</text>
+			<text x="317.4826694758858" y="195.0" style="font-family: Body; font-size: 8.8px;fill: rgb(13%,23%,20%); stroke:none;" transform="translate(0,390) scale(1,-1)">Kode, judul, deskripsi, tujuan</text>
+			<path d="M 381.456693,181 L 381.456693,164 Z" style="stroke: rgb(38%,43%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="378.4567 165, 384.4567 165, 381.4567 159" style="stroke: rgb(38%,43%,41%); stroke-linecap: butt; stroke-width: 1; fill: rgb(38%,43%,41%); fill-rule: evenodd;"/>
+			<rect x="265.6377952755906" y="117" width="231.63779527559058" height="42" rx="6" ry="6" style="stroke: rgb(13%,23%,20%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(13%,23%,20%); fill-rule: evenodd;"/>
+			<text x="346.84536478838584" y="143.0" style="font-family: Body; font-size: 8.8px;fill: rgb(100%,100%,100%); stroke:none;" transform="translate(0,286) scale(1,-1)">Basis data lokal</text>
+			<text x="335.49516947588586" y="131.0" style="font-family: Body; font-size: 8.8px;fill: rgb(100%,100%,100%); stroke:none;" transform="translate(0,262) scale(1,-1)">Metadata terstruktur</text>
+			<rect x="56" y="12" width="395.27559055118115" height="51" rx="6" ry="6" style="stroke: rgb(38%,43%,41%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd; stroke-dasharray: 4, 3;"/>
+			<text x="173.71445543184058" y="43" style="font-family: Body-Bold; font-size: 9px;fill: rgb(13%,23%,20%); stroke:none;" transform="translate(0,86) scale(1,-1)">Platform pembelajaran internal</text>
+			<text x="159.6974388302781" y="27" style="font-family: Body; font-size: 8.3px;fill: rgb(38%,43%,41%); stroke:none;" transform="translate(0,54) scale(1,-1)">Target integrasi lanjutan; bukan bukti go-live</text>
+			<path d="M 125.818898,117 L 125.818898,68 Z" style="stroke: rgb(38%,43%,41%); stroke-linecap: butt; stroke-width: 1; stroke-dasharray: 3, 3;"/>
+			<polygon points="122.8189 69, 128.8189 69, 125.8189 63" style="stroke: rgb(38%,43%,41%); stroke-linecap: butt; stroke-width: 1; fill: rgb(38%,43%,41%); fill-rule: evenodd;"/>
+			<path d="M 381.456693,117 L 381.456693,68 Z" style="stroke: rgb(38%,43%,41%); stroke-linecap: butt; stroke-width: 1; stroke-dasharray: 3, 3;"/>
+			<polygon points="378.4567 69, 384.4567 69, 381.4567 63" style="stroke: rgb(38%,43%,41%); stroke-linecap: butt; stroke-width: 1; fill: rgb(38%,43%,41%); fill-rule: evenodd;"/>
+		</g>
+	</g>
+</svg>

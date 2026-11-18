@@ -1,0 +1,12 @@
+.DS_Store
+Thumbs.db
+desktop.ini
+.vercel/
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+node_modules/
+*.log
